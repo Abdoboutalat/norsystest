@@ -137,6 +137,7 @@
             <column name="event_id" type="bigint"/>
         </createIndex>
 
+
         <addForeignKeyConstraint baseColumnNames="event_id"
                                  baseTableName="jhi_persistent_audit_evt_data"
                                  constraintName="fk_evt_pers_audit_evt_data"
