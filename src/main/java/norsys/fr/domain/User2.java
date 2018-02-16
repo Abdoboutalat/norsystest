@@ -217,4 +217,13 @@ public class User2 extends AbstractAuditingEntity implements Serializable {
            
             "}";
     }
+    public String toStringf() {
+        return "User{" +
+            "login='" + login + '\'' +
+             "login='" + login + '\'' +
+            ", firstName='" + firstName + '\'' +
+            
+           
+            "}";
+    }
 }
